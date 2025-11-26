@@ -1,0 +1,10 @@
+<!-- Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcuke e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x. -->
+
+<meta charset="utf-8">
+<script>
+    const valorProduto = Number(prompt("Valor do Produto R$: ")); // lê o valor do produto
+    const desconto = valorProduto * 0.10; // calcula o desconto (10%)
+    const valorVista = valorProduto - desconto; // calcula o valor à vista
+    const valorPrazo = valorProduto / 3; // calcula o valor a prazo (3x)
+    alert(`Valor à vista com desconto(10%) é R$ ${valorVista.toFixed(2)} \nValor a prazo (3x) é R$ ${valorPrazo.toFixed(2)}`); // exibe o resultado
+</script>
