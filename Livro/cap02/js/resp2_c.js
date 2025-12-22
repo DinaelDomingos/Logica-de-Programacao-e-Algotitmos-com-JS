@@ -1,3 +1,4 @@
+
 // cria referência aos elementos da página 
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("#outPromocao")
