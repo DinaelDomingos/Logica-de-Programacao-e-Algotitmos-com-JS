@@ -10,12 +10,14 @@ frm.addEventListener("submit", (e) => {
     const masculino = frm.inMasculino.checked;
     const altura = Number(frm.inAltura.value);
 
-    let peso;              // declara a variável peso
-    if (masculino) {       // se masculino (ou, if masculino == true)
-        peso = 22 * Math.pow(altura, 2);   // Math.pow = potência (eleva ao quadrado)
-    } else {
-        peso = 21 * Math.pow(altura, 2);
-    }
+    // let peso;              // declara a variável peso
+    // if (masculino) {       // se masculino (ou, if masculino == true)
+    //     peso = 22 * Math.pow(altura, 2);   // Math.pow = potência (eleva ao quadrado)
+    // } else {
+    //     peso = 21 * Math.pow(altura, 2);
+    // }
+
+    const peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2); // operador condicional (ternário)
 
     resp.innerText = `${nome}: seu peso ideal é ${peso.toFixed(2)} kg.`;  // apresenta a resposta (altera o conteúdo do elemento h3 da página)    
 });
