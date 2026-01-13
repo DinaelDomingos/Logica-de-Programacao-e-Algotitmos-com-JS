@@ -25,10 +25,13 @@ body {
 
 header {
     width: 40%;
-    background-image: url(img/ex4_2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 main {
