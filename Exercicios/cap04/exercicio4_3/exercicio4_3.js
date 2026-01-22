@@ -11,17 +11,20 @@ frm.addEventListener("submit", (e) => {
         tempo = 120
         troco = valor - 3
         resp1.textContent = `Tempo: ${tempo} minutos`
-        resp2.textContent = `Troco: R$ ${troco.toFixed(2)}`
+        if (troco > 0)
+            resp2.textContent = `Troco: R$ ${troco.toFixed(2)}`
     } else if (valor >= 1.75) {
         tempo = 60
         troco = valor - 1.75
         resp1.textContent = `Tempo: ${tempo} minutos`
-        resp2.textContent = `Troco: R$ ${troco.toFixed(2)}`
+        if (troco > 0)
+            resp2.textContent = `Troco: R$ ${troco.toFixed(2)}`
     } else if (valor >= 1) {
         tempo = 30
         troco = valor - 1
         resp1.textContent = `Tempo: ${tempo} minutos`
-        resp2.textContent = `Troco: R$ ${troco.toFixed(2)}`
+        if (troco > 0)
+            resp2.textContent = `Troco: R$ ${troco.toFixed(2)}`
     } else {
         resp1.textContent = "Valor insuficiente"
         resp2.textContent = ""
