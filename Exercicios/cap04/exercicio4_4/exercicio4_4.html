@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/livrojs.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 4.4</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/exerc.jpg" alt="Imagem de Notebook">
+        </header>
+        <main>
+            <h1>Programa Lados de um Triângulo</h1>
+            <form action="">
+                <p>
+                    <label for="inLadoA">Lado A (cm): </label>
+                    <input type="number" name="ladoA" id="inLadoA" required>
+                </p>
+                <p>
+                    <label for="inLadoB">Lado B (cm): </label>
+                    <input type="number" name="ladoB" id="inLadoB" required>
+                </p>
+                <p>
+                    <label for="inLadoC">Lado C (cm): </label>
+                    <input type="number" name="ladoC" id="inLadoC" required>
+                </p>
+                <p>
+                    <input type="submit" value="Verificar Triângulo">
+                    <input type="reset" value="Limpar">
+                </p>
+                <h3 id="outResp1"></h3>
+                <h3 id="outResp2"></h3>
+            </form>
+        </main>
+        <script src="exercicio4_4.js"></script>
+    </div>
+</body>
+</html>
