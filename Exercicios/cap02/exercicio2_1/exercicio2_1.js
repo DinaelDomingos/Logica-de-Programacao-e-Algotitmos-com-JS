@@ -1,3 +1,5 @@
+// Uma farmácia esta fazendo uma promoção de medicamentos. Na compra de um medicamento, o cliente leva outro igual de graça. Faça um programa que receba o nome e o preço do medicamento e mostre a promoção da farmácia.
+
 // criar as referencias aos elementos da página
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("#outPromocao");

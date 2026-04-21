@@ -1,3 +1,5 @@
+// Elaborar um programa para um supermercado. O programa deve receber o nome do produto e o preço do produto. O programa deve mostrar o nome do produto, o preço do produto, o valor da promoção (leve 3 por R$) e o valor do desconto do 3º produto de 50%. 
+
 // criar referencia aos elementos da página.
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("#outPromocao");

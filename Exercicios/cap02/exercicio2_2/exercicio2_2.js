@@ -1,3 +1,5 @@
+// Elaborar um progrma para uma lan house de um aeroporto. O programa deve receber o tempo gasto pelo cliente e o preço cobrado a cada 15 minutos. O programa deve mostrar o total a pagar pelo cliente.
+
 // criar as referencias aos elementos da página
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("#outTotal");

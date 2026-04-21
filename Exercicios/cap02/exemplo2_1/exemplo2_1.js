@@ -1,3 +1,5 @@
+// Crie um programa que leia o nome do usuário e exiba uma mensagem de boas-vindas.
+
 // cria referência ao form e ao elemento h3 (onde será exibida a resposta)
 const frm = document.querySelector("form");
 const resp = document.querySelector("h3");

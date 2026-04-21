@@ -1,3 +1,5 @@
+// Elaborar um programa para um restaurante, que leia o peso do prato em gramas e o preço por quilo. Em seguida, calcule o valor a ser pago e exiba a resposta.
+
 // cria referência ao form e aos elementos h3 (onde sera exibida a resposta).
 const frm = document.querySelector("form");
 const resp = document.querySelector("h3");

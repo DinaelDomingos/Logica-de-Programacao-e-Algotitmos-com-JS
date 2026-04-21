@@ -1,3 +1,5 @@
+// Elaborar um pogrma de uma revenda de veículos, que leia o modelo do veículo e o preço à vista. Em seguida, calcule o valor da entrada (50% do preço) e o valor das 12 parcelas (50% do preço dividido em 12x). Exiba o modelo do veículo, o valor da entrada e o valor das parcelas.
+
 // cria referência ao form e aos elementos de resposta (pelo sei id).
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("#outResp1");

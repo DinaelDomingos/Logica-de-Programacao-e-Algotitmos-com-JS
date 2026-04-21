@@ -1,3 +1,5 @@
+// Elaborar um programa para um Cinema, que leia o título de um filme e sua duração em minutos. Em seguida, exiba o título do filme e a duração formatada em horas e minutos.
+
 // cria referência ao form e aos elementos h3 e h4 (respostas)
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("h3");
